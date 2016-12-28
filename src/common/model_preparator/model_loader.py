@@ -3,7 +3,7 @@ import importlib
 import os, sys
 from chainer import serializers
 
-
+# 
 def prepare_model(args):
     model = getattr(
         importlib.import_module(args.archtecture.module_name),
