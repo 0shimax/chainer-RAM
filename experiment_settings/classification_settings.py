@@ -5,7 +5,7 @@ import platform
 from base_settings import get_base_params, calculate_in_ch
 
 
-# common params
+# common params_
 base_params = get_base_params()
 
 

@@ -12,7 +12,7 @@ from image_normalizer import ImageNormalizer
 
 class DatasetPreProcessor(chainer.dataset.DatasetMixin):
     def __init__(self, args):
-        """args type is EasyDict class
+        """args type is EasyDict class 
         """
         labels = list('ABCDEFGHIJKLMNOPQRS')
         self.label2clsval = {l:i for i,l in enumerate(labels)}

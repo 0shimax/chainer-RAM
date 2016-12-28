@@ -14,7 +14,6 @@ from loss_func_utils import loglikelihood
 
 
 class RAMCnn(chainer.Chain):
-    # n_e=128, n_h=256
     def __init__(self, n_class, in_ch, n_e=24*2, n_h=48*2, g_size=32, n_step=8, scale=3, var=7.5):
         w = math.sqrt(2)  # MSRA scaling
         n_ch_after_core = 256

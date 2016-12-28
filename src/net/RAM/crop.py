@@ -5,7 +5,7 @@ from chainer import function
 
 class Crop(function.Function):
     """
-    must refactore.
+    must refactore. 
     """
 
     def __init__(self, center, size):

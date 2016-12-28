@@ -23,7 +23,7 @@ def test(model, args):
     heat_map = defaultdict(dict)
 
     val_it, test_data_size, pairs = prepare_dataset(args)
-    print("------test data size")
+    print("-----test data size")
     print(test_data_size)
     out_file = os.path.join(args.output_path, args.low_confidence_image_output_file_name)
     with open(out_file, 'w') as low_conf_of:

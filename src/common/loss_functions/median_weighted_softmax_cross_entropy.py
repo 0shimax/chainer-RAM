@@ -199,7 +199,7 @@ class MedianWeightedSoftmaxCrossEntropy(function.Function):
 def median_weighted_softmax_cross_entropy(
         x, t, use_cudnn=True, normalize=True, cache_score=True, weight_type='sysm60k'):
     """Computes cross entropy loss for pre-softmax activations.
-    Args:
+    Args: 
         x (Variable): Variable holding a multidimensional array whose element
             indicates unnormalized log probability: the first axis of the
             variable represents the number of samples, and the second axis

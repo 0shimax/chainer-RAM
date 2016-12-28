@@ -146,7 +146,7 @@ class RAM(chainer.Chain):
         g = self.glimpse_net(glimpse, location)
 
         # Core Net
-        # named recurrent network, in the paper.
+        # named recurrent network, in the paper .
         # equal to f_h(thita_h)
         # this node calculate belief state.
         h = self.core_lstm(g)

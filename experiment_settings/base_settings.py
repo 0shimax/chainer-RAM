@@ -11,7 +11,7 @@ def calculate_in_ch(converse_gray, detect_edge=False):
     return in_ch
 
 
-# immortal params
+# immortal params_
 local_os_name = 'Darwin'
 data_root_path = './data' if platform.system()==local_os_name else '/data/'
 
